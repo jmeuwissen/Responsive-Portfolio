@@ -215,3 +215,68 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980){
+/*                           */
+    /* PORTFOLIO.HTML */
+    /* push navbar links away from right edge of page */
+
+
+    /* push navbar logo away from left side of page */
+
+    /* On the left and right, shrink container around portfolio images to about 20px padding */
+
+/*                            */
+    /* INDEX.HTML */
+
+    /* ensure that container is resized around text to match the sizes on other pages */
+
+
+/*                            */
+    /* CONTACT.HTML */
+    /* covered by portfolio changes */
+
+}
+
+@media screen and (max-width:768){
+
+
+    /* this all seems like it will be covered by the fixes to 980 width. TBD */
+/*                            */
+    /* PORTFOLIO.HTML */
+
+    /* no adjustments necessary */
+
+/*                            */
+    /* INDEX.HTML */
+
+    /* resize profile image by about 130% */
+
+/*                            */
+    /* CONTACT.HTML */
+
+    /* no adjustments necessary */
+}
+
+@media screen and (max-width:640){
+
+    /* make navbar logo fill screenwidth at page top */
+    /* send navbar links just below navbar logo */
+/*                            */
+    /* PORTFOLIO.HTML */
+
+    /* resize profile image to fit screen. Container padding and margin to the edge
+        of the screen should be about 20px 15px respectively 
+        
+        potentially same fix as index.html profile image*/
+
+/*                            */
+    /* INDEX.HTML */
+
+    /* resize profile image to fit screen. Container padding and margin to the edge
+        of the screen should be about 20px 15px respectively */
+
+/*                            */
+    /* CONTACT.HTML */
+    /* no adjustments necessary */
+}
