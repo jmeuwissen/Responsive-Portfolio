@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+</head>
+
+<body>
+<!-- not sure how to reposition the navbar item with the rest of the page using just bootstrap
+time to move on -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <span class="navbar-brand mb-1 h1 bg-info text-white px-2 py-3">Jack Meuwissen</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1 class="text-info">Contact</h1>
+
+      <hr>
+
+      <form id="contact-form">
+        <ul class="list-unstyled">
+          <div class="form-group">
+            <li>
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="John Smith"
+                required="required">
+            </li>
+          </div>
+          <div class="form-group">
+            <li>
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com"
+                required="required">
+            </li>
+          </div>
+          <div class="form-group">
+            <li>
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" required="required"></textarea>
+            </li>
+          </div>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+</body>
+
+</html>
