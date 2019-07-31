@@ -216,7 +216,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width:980){
+@media screen and (max-width:980px){
 /*                           */
     /* PORTFOLIO.HTML */
     /* push navbar links away from right edge of page */
@@ -238,14 +238,18 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width:768){
+@media screen and (max-width:768px){
 
 
-    /* this all seems like it will be covered by the fixes to 980 width. TBD */
+
 /*                            */
     /* PORTFOLIO.HTML */
 
-    /* no adjustments necessary */
+    /* resize images to center on screen with two per row */
+
+    .work {
+        width: 315px;
+    }
 
 /*                            */
     /* INDEX.HTML */
@@ -258,7 +262,7 @@ input[type=submit] {
     /* no adjustments necessary */
 }
 
-@media screen and (max-width:640){
+@media screen and (max-width:640px){
 
     /* make navbar logo fill screenwidth at page top */
     /* send navbar links just below navbar logo */
