@@ -226,13 +226,26 @@ input[type=submit] {
 
     /* On the left and right, shrink container around portfolio images to about 20px padding */
 
-/*                            */
+    #logo{
+        position: relative;
+        left: 30px;
+    }
+
+    #main-container{
+        float: left;
+        width: 650px;
+        position: relative;
+        left: 30px;
+    }
+
+  
+
+
     /* INDEX.HTML */
 
     /* ensure that container is resized around text to match the sizes on other pages */
 
 
-/*                            */
     /* CONTACT.HTML */
     /* covered by portfolio changes */
 
@@ -242,7 +255,6 @@ input[type=submit] {
 
 
 
-/*                            */
     /* PORTFOLIO.HTML */
 
     /* resize images to center on screen with two per row */
@@ -251,7 +263,6 @@ input[type=submit] {
         width: 315px;
     }
 
-/*                            */
     /* INDEX.HTML */
 
     /* resize profile image so left edge is centered on page */
@@ -260,7 +271,6 @@ input[type=submit] {
         width: 320px;
     }
 
-/*                            */
     /* CONTACT.HTML */
 
     /* no adjustments necessary */
@@ -270,7 +280,7 @@ input[type=submit] {
 
     /* make navbar logo fill screenwidth at page top */
     /* send navbar links just below navbar logo */
-/*                            */
+
     /* PORTFOLIO.HTML */
 
     /* resize profile image to fit screen. Container padding and margin to the edge
@@ -278,13 +288,11 @@ input[type=submit] {
         
         potentially same fix as index.html profile image*/
 
-/*                            */
     /* INDEX.HTML */
 
     /* resize profile image to fit screen. Container padding and margin to the edge
         of the screen should be about 20px 15px respectively */
 
-/*                            */
     /* CONTACT.HTML */
     /* no adjustments necessary */
 }
