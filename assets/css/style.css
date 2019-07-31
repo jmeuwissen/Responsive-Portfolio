@@ -254,7 +254,11 @@ input[type=submit] {
 /*                            */
     /* INDEX.HTML */
 
-    /* resize profile image by about 130% */
+    /* resize profile image so left edge is centered on page */
+
+    .auth-image{
+        width: 320px;
+    }
 
 /*                            */
     /* CONTACT.HTML */
