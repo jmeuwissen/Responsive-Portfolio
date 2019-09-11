@@ -282,19 +282,13 @@ input[type=submit] {
     /* send navbar links just below navbar logo */
 
     /* PORTFOLIO.HTML */
-    #logo{
-        position: static;
+    #logo, nav {
+        width:100%;
+        text-align: center;
+        position: relative;
         left: 0px;
-        width:640px;
-        clear: both;
     }
         /* difficulty centering navbar under */
-    nav {
-        position: static;
-        left: 0px;
-        width:640px;
-        clear: both;
-    }
 
     /* nav {
         float: none;
