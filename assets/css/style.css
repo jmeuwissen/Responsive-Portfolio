@@ -140,8 +140,10 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
+  height: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .work:nth-child(even) {
@@ -229,6 +231,7 @@ input[type=submit] {
     #logo{
         position: relative;
         left: 30px;
+        overflow: hidden;
     }
 
     #main-container{
